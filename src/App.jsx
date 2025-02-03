@@ -1,9 +1,11 @@
 import "./index.scss";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <header className="header-group" id="navbar">
+      <Header />
+      {/* <header className="header-group" id="navbar">
         <div className="text-container">
           <small className="syntax-style">{"/dev>"} </small>
           <h1>Emil Hult</h1>
@@ -39,7 +41,7 @@ function App() {
             Contact Me{" "}
           </a>
         </nav>
-      </header>
+      </header> */}
       <main className="main-container">
         <section className="aboutme" id="aboutme">
           <div className="scroll-parent">
