@@ -15,7 +15,7 @@ function KnowledgeSection() {
       <div>
         <img
           className="logos"
-          src="src/assets/Images/CSharpimg.png"
+          src="/src/assets/Images/CSharpimg.png"
           alt="Bild på C# logo"
           title="C#"
         />
