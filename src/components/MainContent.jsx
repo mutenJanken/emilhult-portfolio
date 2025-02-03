@@ -11,6 +11,8 @@ function MainContent() {
       <ProjectSection />
       <SocialsSection />
 
+      {/* ---------Previously used contact form ---------- */}
+
       {/* <section className="contactme" id="contactme">
           <h2 className="h2section">Contact Me</h2>
           <form id="form1" noValidate>

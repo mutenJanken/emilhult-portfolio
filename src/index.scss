@@ -388,13 +388,6 @@ footer {
     // margin-top: 5%;
 }
 
-// .h2reference {
-//     color: rgb(243, 243, 247);
-//     font-size: 200%;
-//     display: flex;
-//     direction: start;
-// }
-
 section {
     color: rgba(240, 248, 255, 0.589);
     padding-left: 10%;
@@ -513,21 +506,11 @@ section {
 }
 
 .projects-layout {
-    // background-color: #343f5550;
-    // border: 1px solid #343f5550;
-    // box-shadow: 0 5px 15px rgba(0, 0, 0, 0.414);
     width: 600px;
-    // margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
     flex-direction: column;
-    // border-radius: 20px;
-    // border-top-left-radius: 2px;
-    // border-bottom-left-radius: 60px;
-    // border-top-right-radius: 60px;
-    // border-bottom-right-radius: 60px;
-    // position: relative;
     gap: 1px;
 
     @media screen and (max-width: 768px) {
@@ -575,101 +558,10 @@ section {
     margin: 10px 10px;
 }
 
-// .reference {
-//     background-color: #191825;
-//     padding-left: 25%;
-//     padding-right: 25%;
-// }
-
-// .reference-content {
-//     background-color: #343f5550;
-//     border: 1px solid #343f5550;
-//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.411);
-//     border-radius: 20px;
-//     margin: 10px;
-//     padding: 20px;
-// }
-
-// .contactme {
-//     background-color: #191825;
-//     padding: 20px;
-//     display: flex;
-//     justify-content: center;
-// }
-
-// .contact-me-form {
-//     background-color: #343f5550;
-//     border: 1px solid #343f5550;
-//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.411);
-//     width: 600px;
-//     min-height: 350px;
-//     border-radius: 20px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-evenly;
-//     align-items: center;
-//     padding: 40px;
-//     box-sizing: border-box;
-
-//     @media screen and (max-width: 768px) {
-//         width: 100%;
-//         padding: 20px;
-//     }
-// }
-
-.emailaddress {
-    background-color: #64739294;
-    color: #dde0e6da;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    width: 100%;
-    height: 35px;
-    box-sizing: border-box;
-
-    @media screen and (max-width: 768px) {
-        font-size: 14px;
-    }
-}
-
-.label {
-    font-size: 17px;
-    margin-top: 10px
-}
-
-.input-parent {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 10px;
-}
-
-.message {
-    background-color: #64739294;
-    color: #dde0e6da;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    width: 100%;
-    height: 120px;
-    box-sizing: border-box;
-
-    @media screen and (max-width: 768px) {
-        font-size: 14px;
-    }
-}
-
-.send-parent {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-}
-
 .logos {
-    width: 80px;
+    width: 70px;
     height: auto;
-    margin: 30px 15px 0px 15px;;
+    margin: 30px 15px 0px 15px;
 
     @media screen and (max-width: 768px) {
         width: 60px;
@@ -683,7 +575,6 @@ section {
     max-width: 100%;
     border-radius: 50%;
     margin: 2px 10px 20px 20px;
-    // border: 1px solid #abaaaccc;
     box-shadow: 0 4px 8px #1d1d2d7f;
 
     @media screen and (max-width: 768px) {
@@ -715,76 +606,86 @@ section {
     text-decoration: none;
 }
 
-// .pristine-error {
-//     font-size: small;
-//     color: crimson;
+
+//  ------------  previously used contact form  -----------------
+
+// .contactme {
+//     background-color: #191825;
+//     padding: 20px;
+//     display: flex;
+//     justify-content: center;
 // }
 
-// .weather-card {
-//     background-color: #212030;
+// .contact-me-form {
+//     background-color: #343f5550;
 //     border: 1px solid #343f5550;
-//     border-radius: 40px;
-//     margin: 10px;
+//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.411);
+//     width: 600px;
+//     min-height: 350px;
+//     border-radius: 20px;
 //     display: flex;
 //     flex-direction: column;
+//     justify-content: space-evenly;
 //     align-items: center;
-//     color: rgb(243, 243, 247);
-//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.712);
-//     display: none;
+//     padding: 40px;
+//     box-sizing: border-box;
 
-//     .display-city {
-//         margin: 16px;
-//         font-size: 2.0rem;
-//     }
-
-//     p {
-//         margin: 8px;
-//     }
-
-//     .display-temp {
-//         font-size: 1.5rem;
-//         font-weight: bold;
-//     }
-
-//     .display-humidity {
-//         font-weight: bold;
-//     }
-
-//     .display-description {
-//         font-weight: bold;
-//         font-size: 1.3rem
-//     }
-
-//     .weather-emoji {
-//         font-size: 2.5rem;
-//     }
-
-//     .display-error {
-//         font-size: 2.0rem;
-//         font-weight: bold;
+//     @media screen and (max-width: 768px) {
+//         width: 100%;
+//         padding: 20px;
 //     }
 // }
 
-// .weather-button {
-//     background-color: #10cf60;
-//     border: none;
-
-//     &:hover {
-//         background-color: #0ead50;
-//     }
-// }
-
-// .cityinput {
+// .emailaddress {
 //     background-color: #64739294;
 //     color: #dde0e6da;
 //     font-weight: bold;
 //     border: none;
 //     border-radius: 10px;
-//     width: 50%;
+//     width: 100%;
 //     height: 35px;
 //     box-sizing: border-box;
 
 //     @media screen and (max-width: 768px) {
 //         font-size: 14px;
 //     }
+// }
+
+// .label {
+//     font-size: 17px;
+//     margin-top: 10px
+// }
+
+// .input-parent {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     width: 100%;
+//     gap: 10px;
+// }
+
+// .message {
+//     background-color: #64739294;
+//     color: #dde0e6da;
+//     font-weight: bold;
+//     border: none;
+//     border-radius: 10px;
+//     width: 100%;
+//     height: 120px;
+//     box-sizing: border-box;
+
+//     @media screen and (max-width: 768px) {
+//         font-size: 14px;
+//     }
+// }
+
+// .send-parent {
+//     display: flex;
+//     justify-content: flex-start;
+//     width: 100%;
+// }
+
+// .pristine-error {
+//     font-size: small;
+//     color: crimson;
 // }
