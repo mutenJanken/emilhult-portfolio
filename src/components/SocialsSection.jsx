@@ -6,7 +6,7 @@ function SocialsSection() {
         <a href="https://github.com/mutenJanken" className="github-button">
           <img
             className="github-logo"
-            src="src/assets/Images/Github logo.png"
+            src="./src/assets/Images/Github logo.png"
             alt="Bild inom knapp på github-logo"
           />
         </a>
@@ -16,7 +16,7 @@ function SocialsSection() {
         >
           <img
             className="linkedin-logo"
-            src="src/assets/Images/LinkedIn logo.png"
+            src="./src/assets/Images/LinkedIn logo.png"
             alt="Bild inom knapp på linkedin-logo"
           />
         </a>
