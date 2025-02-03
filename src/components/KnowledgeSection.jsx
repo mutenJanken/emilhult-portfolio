@@ -1,3 +1,4 @@
+import Csharpimg from "/emilhult-portfolio/src/assets/Images/CSharpimg.png";
 function KnowledgeSection() {
   return (
     <section className="knowledge" id="knowledge">
@@ -15,13 +16,13 @@ function KnowledgeSection() {
       <div>
         <img
           className="logos"
-          src="./src/assets/Images/CSharpimg.png"
+          src={Csharpimg}
           alt="Bild på C# logo"
           title="C#"
         />
         <img
           className="logos"
-          src="./src/assets/Images/T-SQLimg.png"
+          src="/emilhult-portfolio/src/assets/Images/T-SQLimg.png"
           alt="Bild på SQL logo"
           title="T-SQL"
         />
