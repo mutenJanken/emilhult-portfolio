@@ -19,7 +19,7 @@ function AboutMeSection() {
         <div className="chat-bubble pic">
           <img
             className="profile-pic"
-            src={import.meta.env.BASE_URL + "src/assets/Images/Mecropped.jpeg"}
+            src="src/assets/Images/Mecropped.jpeg"
             alt="Bild på mig"
           />
         </div>
