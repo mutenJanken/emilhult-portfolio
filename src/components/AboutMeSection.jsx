@@ -41,9 +41,9 @@ function AboutMeSection() {
               <strong>
                 <em className="highlight-word">.NET</em>
               </strong>{" "}
-              development course at Nackademin. With a passion for data, and
+              development course at Nackademin. With a interest for data, and
               logic, I am pursuing a career in IT where I can develop and
-              challenge my skills. During my studies, I have gained a solid
+              challenge my knowledge. During my studies, I have gained a good
               understanding of backend development with{" "}
               <strong>
                 <em className="highlight-word">C#</em>
