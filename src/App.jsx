@@ -39,20 +39,6 @@ function App() {
             Contact Me{" "}
           </a>
         </nav>
-        {/* <div className="weather-parent">
-          <form className="weatherform">
-            <input
-              type="text"
-              className="cityinput"
-              placeholder="Enter a city"
-              spellCheck="false"
-            />
-            <button type="submit" className="weather-button nav-buttons">
-              Weather
-            </button>
-          </form>
-          <div className="weather-card"></div>
-        </div> */}
       </header>
       <main className="main-container">
         <section className="aboutme" id="aboutme">
@@ -220,7 +206,9 @@ function App() {
               <span className="syntax-style lang method p">setProjects</span>
               <span className="syntax-style lang sign p">{"] ="}</span>
               <span className="syntax-style lang method p">useState</span>
-              <span className="syntax-style lang sign p">{"([]);"}</span>
+              <span className="syntax-style lang sign p">{"("}</span>
+              <span className="syntax-style lang sign p array">{"[]"}</span>
+              <span className="syntax-style lang sign p">{");"}</span>
             </div>
             <div className="text-container indent2">
               <span className="syntax-style lang method p">useEffect</span>
@@ -242,7 +230,7 @@ function App() {
               <span className="syntax-style lang quotation p">&quot;</span>
               <a className="http-link" href="https://github.com/mutenJanken">
                 <span className="syntax-style lang quotation text p">
-                  https://github.com/emilhult/projects
+                  https://api.github.com/users/emilhult/repos
                 </span>
               </a>
               <span className="syntax-style lang quotation p">&quot;</span>
@@ -268,87 +256,113 @@ function App() {
           </div>
           <div className="projects-layout">
             <div className="text-container indent4">
-              <span className="syntax-style lang sign">{"};"}</span>
-            </div>
-            <div className="text-container indent2">
-              <span className="syntax-style lang sign">{"}, []);"}</span>
-            </div>
-            <div className="text-container indent2">
-              <span className="syntax-style lang vartype">return</span>
-              <span className="syntax-style lang sign">{"("}</span>
+              <span className="syntax-style lang sign p">{"}"}</span>
             </div>
             <div className="text-container indent4">
-              <span className="syntax-style lang sign">{"<>"}</span>
+              <span className="syntax-style lang sign method p">
+                getProjects
+              </span>
+              <span className="syntax-style lang sign p">{"();"}</span>
+            </div>
+            <div className="text-container indent2">
+              <span className="syntax-style lang sign p">{"},"}</span>
+              <span className="syntax-style lang sign p array">{"[]"}</span>
+              <span className="syntax-style lang sign p">{");"}</span>
+            </div>
+            <div className="text-container indent2">
+              <span className="syntax-style lang vartype p">return</span>
+              <span className="syntax-style lang sign p">{"("}</span>
+            </div>
+            <div className="text-container indent4">
+              <span className="syntax-style lang sign p">{"<>"}</span>
             </div>
           </div>
 
           <article className="projects-article-content">
-            <div className="text-container">
-              <span className="syntax-style lang sign">{"<"}</span>
-            </div>
-            <a
-              className="card"
-              href="https://github.com/mutenJanken/ShotgunRefractored"
-            >
-              {/* <div>
+            <div className="card-wrapper">
+              <div className="text-container">
+                <span className="syntax-style lang divsign">{"<"}</span>
+              </div>
+              <a
+                className="card"
+                href="https://github.com/mutenJanken/ShotgunRefractored"
+              >
+                {/* <div>
                 <img
                   className="shotgun-png"
                   src="src/assets/Images/ShotgunGamePic.png"
                   alt="Bild på shotgun spel"
                 />
               </div> */}
-              <div>
+                <div>
+                  <div className="card-text-container">
+                    <h3 className="card-text">Shotgun Game</h3>
+                    <small className="card-text">
+                      A WinForms turn-based duel game with a scripted bot, built
+                      in C# using OOP principles.
+                    </small>
+                  </div>
+                </div>
+              </a>
+              <div className="text-container">
+                <span className="syntax-style lang prop p">projects</span>
+                <span className="syntax-style lang sign p">=</span>
+                <span className="syntax-style lang sign p">{"{"}</span>
+                <span className="syntax-style lang variable p">projects</span>
+                <span className="syntax-style lang sign p">{"}"}</span>
+                <span className="syntax-style lang divsign">{"/>"}</span>
+              </div>
+            </div>
+
+            <div className="card-wrapper">
+              <div className="text-container">
+                <span className="syntax-style lang divsign">{"<"}</span>
+              </div>
+              <a
+                className="card"
+                href="https://github.com/mutenJanken/AdsADONET"
+              >
+                {/* <div>
+                <img
+                className="shotgun-png"
+                src="src/assets/Images/Listing App.png"
+                alt="Bild på listing app"
+                />
+                </div> */}
                 <div className="card-text-container">
-                  <h3 className="card-text">Shotgun Game</h3>
+                  <h3 className="card-text">Listing app</h3>
                   <small className="card-text">
-                    A WinForms turn-based duel game with a scripted bot, built
-                    in C# using OOP principles.
+                    A WinForms application built with ADO.NET and T-SQL for data
+                    management.
                   </small>
                 </div>
+              </a>
+              <div className="text-container">
+                <span className="syntax-style lang prop p">projects</span>
+                <span className="syntax-style lang sign p">=</span>
+                <span className="syntax-style lang sign p">{"{"}</span>
+                <span className="syntax-style lang variable p">projects</span>
+                <span className="syntax-style lang sign p">{"}"}</span>
+                <span className="syntax-style lang divsign">{"/>"}</span>
               </div>
-            </a>
-            <div className="text-container">
-              <span className="syntax-style lang sign">{"/>"}</span>
-            </div>
-            <div className="text-container">
-              <span className="syntax-style lang sign">{"<"}</span>
-            </div>
-            <a className="card" href="https://github.com/mutenJanken/AdsADONET">
-              {/* <div>
-                <img
-                  className="shotgun-png"
-                  src="src/assets/Images/Listing App.png"
-                  alt="Bild på listing app"
-                />
-              </div> */}
-              <div className="card-text-container">
-                <h3 className="card-text">Listing app</h3>
-                <small className="card-text">
-                  A WinForms application built with ADO.NET and T-SQL for data
-                  management.
-                </small>
-              </div>
-            </a>
-            <div className="text-container">
-              <span className="syntax-style lang sign">{"/>"}</span>
             </div>
           </article>
           <div className="projects-layout">
             <div className="text-container indent4">
-              <span className="syntax-style lang sign">{"</>"}</span>
+              <span className="syntax-style lang sign p">{"</>"}</span>
             </div>
             <div className="text-container indent2">
-              <span className="syntax-style lang sign">{");"}</span>
+              <span className="syntax-style lang sign p">{");"}</span>
             </div>
             <div className="text-container">
-              <span className="syntax-style lang vartype">return</span>
-              <span className="syntax-style lang sign">{"}"}</span>
+              <span className="syntax-style lang sign p">{"}"}</span>
             </div>
             <div className="text-container">
-              <span className="syntax-style lang vartype">export</span>
-              <span className="syntax-style lang vartype">default</span>
+              <span className="syntax-style lang vartype p">
+                export default
+              </span>
               <span className="syntax-style lang method">ProjectSection</span>
-              <span className="syntax-style lang sign">;</span>
+              <span className="syntax-style lang sign p">;</span>
             </div>
           </div>
         </section>

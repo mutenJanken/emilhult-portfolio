@@ -9,9 +9,12 @@
     --button-color3: #9ecbff1f;
     --button-link-hover: rgb(144, 134, 221);
     --class: #fad766df;
-    --sign: #e6e6e6;
+    --sign: #e6e6e6a9;
     --method: #669afae6;
     --variable: #e6e6e6c5;
+    --array: #edd380af;
+    --prop: #f5ea739f;
+    --div-sign: #8adff784; 
     --quotation: #66faa4ce;
     --quotation-text:#66faa4be;
     --terminal-output: #b3b2b2;
@@ -86,7 +89,7 @@ h3 {
     font-family: 'Roboto Mono', sans-serif;  
     color: #66faa47e;
     font-size: 180%;
-    text-shadow: rgba(255, 255, 255, 0.079) 0 0 15px;
+    // text-shadow: rgba(255, 255, 255, 0.079) 0 0 15px;
     
     &.small{
         font-size: 90%;
@@ -96,6 +99,10 @@ h3 {
         font-size: 90%;
         color: var(--button-link-hover)
     }
+
+    // &.big{
+    //     font-size: 40px;
+    // }
 
     &.lang{   
     font-size: 110%;
@@ -121,6 +128,13 @@ h3 {
         &.sign{
             color: var(--sign);
         }
+        &.divsign{
+            color: var(--div-sign);
+            font-size: 20px;
+        }
+        &.prop{
+            color: var(--prop)
+        }
         &.method{
             color: var(--method)
         }
@@ -129,7 +143,12 @@ h3 {
         }
         &.variable{
             color: var(--variable)
+        } 
+        &.array{
+            color: var(--array);
+            font-weight: bold;
         }
+
     }
 }
 
@@ -498,7 +517,7 @@ section {
     // border: 1px solid #343f5550;
     // box-shadow: 0 5px 15px rgba(0, 0, 0, 0.414);
     width: 600px;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -509,11 +528,11 @@ section {
     // border-top-right-radius: 60px;
     // border-bottom-right-radius: 60px;
     // position: relative;
-    gap: 20px;
+    gap: 1px;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 }
 
@@ -524,6 +543,10 @@ section {
 
 }
 
+.card-wrapper{
+    display: flex;
+    align-items: center;
+}
 .card {
     background-color: #212030;
     font-family: 'Roboto Mono', monospace;
