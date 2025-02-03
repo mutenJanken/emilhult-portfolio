@@ -10,15 +10,15 @@ function Navbar() {
       <a href="#projects" className="projects-button nav-buttons">
         Projects
       </a>
+      <a href="#socials" className="socials-button nav-buttons">
+        Socials
+      </a>
       <a
         href="src/assets/Emil Hult Resumé.pdf
           "
         className="resume-button nav-buttons"
       >
         Resume
-      </a>
-      <a href="#socials" className="socials-button nav-buttons">
-        Socials
       </a>
       <a
         href="mailto:emilhult@live.se"
