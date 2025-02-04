@@ -86,6 +86,73 @@ function ProjectSection() {
       </div>
 
       <article className="projects-article-content">
+        {/* Portfolio project */}
+        <div className="card-wrapper">
+          <div className="text-container">
+            <span className="syntax-style lang divsign">{"<"}</span>
+          </div>
+          <a
+            className="card"
+            href="https://github.com/mutenJanken/emilhult-portfolio"
+          >
+            {/* <div>
+                <img
+                className="shotgun-png"
+                src="src/assets/Images/Listing App.png"
+                alt="Bild på listing app"
+                />
+                </div> */}
+            <div className="card-text-container">
+              <h3 className="card-text">Portfolio Website</h3>
+              <small className="card-text">
+                A personal portfolio built with React, Sass, and HTML, featuring
+                various sections and a navbar for easy navigation. Showcasing
+                Projects, Skills, and a link to my resume.
+              </small>
+            </div>
+          </a>
+          <div className="text-container">
+            <span className="syntax-style lang prop p">projects</span>
+            <span className="syntax-style lang sign p">=</span>
+            <span className="syntax-style lang sign p">{"{"}</span>
+            <span className="syntax-style lang variable p">projects</span>
+            <span className="syntax-style lang sign p">{"}"}</span>
+            <span className="syntax-style lang divsign">{"/>"}</span>
+          </div>
+        </div>
+
+        {/* Listing project */}
+        <div className="card-wrapper">
+          <div className="text-container">
+            <span className="syntax-style lang divsign">{"<"}</span>
+          </div>
+          <a className="card" href="https://github.com/mutenJanken/AdsADONET">
+            {/* <div>
+                <img
+                className="shotgun-png"
+                src="src/assets/Images/Listing App.png"
+                alt="Bild på listing app"
+                />
+                </div> */}
+            <div className="card-text-container">
+              <h3 className="card-text">Listing app</h3>
+              <small className="card-text">
+                A WinForms application built with ADO.NET and T-SQL for data
+                management.
+              </small>
+            </div>
+          </a>
+          <div className="text-container">
+            <span className="syntax-style lang prop p">projects</span>
+            <span className="syntax-style lang sign p">=</span>
+            <span className="syntax-style lang sign p">{"{"}</span>
+            <span className="syntax-style lang variable p">projects</span>
+            <span className="syntax-style lang sign p">{"}"}</span>
+            <span className="syntax-style lang divsign">{"/>"}</span>
+          </div>
+        </div>
+
+        {/* shotgun game project */}
         <div className="card-wrapper">
           <div className="text-container">
             <span className="syntax-style lang divsign">{"<"}</span>
@@ -109,36 +176,6 @@ function ProjectSection() {
                   C# using OOP principles.
                 </small>
               </div>
-            </div>
-          </a>
-          <div className="text-container">
-            <span className="syntax-style lang prop p">projects</span>
-            <span className="syntax-style lang sign p">=</span>
-            <span className="syntax-style lang sign p">{"{"}</span>
-            <span className="syntax-style lang variable p">projects</span>
-            <span className="syntax-style lang sign p">{"}"}</span>
-            <span className="syntax-style lang divsign">{"/>"}</span>
-          </div>
-        </div>
-
-        <div className="card-wrapper">
-          <div className="text-container">
-            <span className="syntax-style lang divsign">{"<"}</span>
-          </div>
-          <a className="card" href="https://github.com/mutenJanken/AdsADONET">
-            {/* <div>
-                <img
-                className="shotgun-png"
-                src="src/assets/Images/Listing App.png"
-                alt="Bild på listing app"
-                />
-                </div> */}
-            <div className="card-text-container">
-              <h3 className="card-text">Listing app</h3>
-              <small className="card-text">
-                A WinForms application built with ADO.NET and T-SQL for data
-                management.
-              </small>
             </div>
           </a>
           <div className="text-container">
