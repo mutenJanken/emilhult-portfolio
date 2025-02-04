@@ -14,8 +14,7 @@ function Navbar() {
         Socials
       </a>
       <a
-        href="src/assets/Emil Hult Resumé.pdf
-          "
+        href="assets/emil-hult-resumé.pdf"
         className="resume-button nav-buttons"
       >
         Resume
