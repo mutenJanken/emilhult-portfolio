@@ -13,10 +13,7 @@ function Navbar() {
       <a href="#socials" className="socials-button nav-buttons">
         Socials
       </a>
-      <a
-        href="assets/emil-hult-resumé.pdf"
-        className="resume-button nav-buttons"
-      >
+      <a href="assets/emilhultresume.pdf" className="resume-button nav-buttons">
         Resume
       </a>
       <a
