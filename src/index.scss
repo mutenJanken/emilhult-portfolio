@@ -313,30 +313,37 @@ footer {
 // }
 
 .github-button {
-    background-color: #8188f8;
+    // background-color: #8188f8;
+    background-color: var(--bg1);
     display: flex;
     border-radius: 50px;
     margin: 10px;
-    padding: 1px 17px;
+    // padding: 1px 17px;
+
     transition: background-color 0.4s;
 
     &:hover {
-        background-color: #646abe;
+        // background-color: #646abe;
+        background-color: var(--button-link-hover);
         transform: scale(1.10);
         transition: transform 0.4s ease;
     }
 }
 
 .linkedin-button {
-    background-color: #66faa4;
+    // background-color: #66faa4;
+    // background-color: #8188f8;
+    background-color: var(--bg1);
     display: flex;
     border-radius: 50px;
     margin: 10px;
-    padding: 12px 17px;
+    // padding: 12px 17px;
     transition: background-color 0.4s;
 
     &:hover {
-        background-color: #4db679;
+        // background-color: #4db679;
+        // background-color: #646abe;
+        background-color: var(--button-link-hover);
         transform: scale(1.10);
         transition: transform 0.4s ease;
     }
@@ -590,11 +597,13 @@ section {
 }
 
 .github-logo {
-    width: 105px;
+    width: 75px;
+    height: 75px;
 }
 
 .linkedin-logo {
-    width: 120px;
+    width: 75px;
+    height: 75px;
 }
 
 .highlight-word {
