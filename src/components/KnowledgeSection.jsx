@@ -16,25 +16,25 @@ function KnowledgeSection() {
         <img className="logos" src="src/assets/Images/favicon.png" alt="" />
         <img
           className="logos"
-          src="./src/assets/images/csharp.png"
+          src="./assets/images/csharp.png"
           alt="Bild på C# logo"
           title="C#"
         />
         <img
           className="logos"
-          src="./src/assets/images/tsql.png"
+          src="assets/images/tsql.png"
           alt="Bild på SQL logo"
           title="T-SQL"
         />
         <img
           className="logos"
-          src="./src/assets/images/html.png"
+          src="./images/html.png"
           alt="Bild på HTML logo"
           title="HTML"
         />
         <img
           className="logos"
-          src="./src/assets/images/css.png"
+          src="images/css.png"
           alt="Bild på CSS logo"
           title="CSS"
         />
