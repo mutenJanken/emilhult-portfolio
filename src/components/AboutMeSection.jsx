@@ -17,11 +17,7 @@ function AboutMeSection() {
       </div>
       <div className="chat-bubble">
         <div className="chat-bubble pic">
-          <img
-            className="profile-pic"
-            src="/Images/me.jpeg"
-            alt="Bild på mig"
-          />
+          <img className="profile-pic" src="Images/me.jpeg" alt="Bild på mig" />
         </div>
         <div className="aboutme-layout">
           <div className="p-layout">
