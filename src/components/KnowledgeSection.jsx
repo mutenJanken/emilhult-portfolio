@@ -13,40 +13,39 @@ function KnowledgeSection() {
         <span className="syntax-style lang sign">{"{..."}</span>
       </div>
       <div>
-        <img className="logos" src="src/assets/Images/favicon.png" alt="" />
         <img
           className="logos"
-          src="./assets/images/csharp.png"
+          src="/Images/csharp.png"
           alt="Bild på C# logo"
           title="C#"
         />
         <img
           className="logos"
-          src="assets/images/tsql.png"
+          src="/Images/tsql.png"
           alt="Bild på SQL logo"
           title="T-SQL"
         />
         <img
           className="logos"
-          src="./images/html.png"
+          src="/Images/html.png"
           alt="Bild på HTML logo"
           title="HTML"
         />
         <img
           className="logos"
-          src="images/css.png"
+          src="/Images/css.png"
           alt="Bild på CSS logo"
           title="CSS"
         />
         <img
           className="logos"
-          src="./src/assets/images/javascipt.png"
+          src="/Images/javascipt.png"
           alt="Bild på Javascript logo"
           title="Javascript"
         />
         <img
           className="logos"
-          src="./src/assets/images/react.png"
+          src="Images/react.png"
           alt="Bild på React logo"
           title="React"
         />
