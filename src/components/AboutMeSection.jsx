@@ -19,7 +19,7 @@ function AboutMeSection() {
         <div className="chat-bubble pic">
           <img
             className="profile-pic"
-            src="./src/assets/Images/Mecropped.jpeg"
+            src="./src/assets/images/me.jpeg"
             alt="Bild på mig"
           />
         </div>
