@@ -1,10 +1,10 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main']  # Kör workflow vid push till 'main'
-  workflow_dispatch:  # Möjlighet att köra manuellt via Actions tab
+    branches:
+      - main  # Kör när det sker en push till main
+  workflow_dispatch:  # Gör det möjligt att köra manuellt
 
 permissions:
   contents: read
@@ -23,21 +23,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
+      - name: Set up Node
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
 
       - name: Build project
-        run: npm run build
+        run: npm run build  # Bygg projektet, vilket skapar dist/ mappen
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3  # Använd denna action för att deploya till gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_branch: gh-pages  # Ange branch att deploya till
-          folder: ./dist  # Ange mappen som ska deployas (i detta fall dist)
-          token: ${{ secrets.GITHUB_TOKEN }}  # Authentisering
+          publish_branch: gh-pages  # Deployment till gh-pages branchen
+          publish_dir: ./dist  # Sätt till den mapp där dina byggda filer ligger (dist)
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Autentisering via GitHub token
