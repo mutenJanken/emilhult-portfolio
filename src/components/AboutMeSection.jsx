@@ -33,7 +33,7 @@ function AboutMeSection() {
             <p className="aboutme-p">
               <span className="syntax-style lang sign">{">"}</span>
               {/* <span className="lang quotation">&quot;</span> */}
-              Hello! My name is Emil Hult, and I am a student in the{" "}
+              Hello! My name is Emil, I am a student in the{" "}
               <strong>
                 <em className="highlight-word">.NET</em>
               </strong>{" "}

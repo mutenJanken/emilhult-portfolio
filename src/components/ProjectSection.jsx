@@ -39,7 +39,7 @@ function ProjectSection() {
           <span className="syntax-style lang quotation p">&quot;</span>
           <a className="http-link" href="https://github.com/mutenJanken">
             <span className="syntax-style lang quotation text p">
-              https://api.github.com/users/emilhult/repos
+              https://api.github.com/..
             </span>
           </a>
           <span className="syntax-style lang quotation p">&quot;</span>
@@ -86,6 +86,37 @@ function ProjectSection() {
       </div>
 
       <article className="projects-article-content">
+        {/* Bowling Game project */}
+        <div className="card-wrapper">
+          <div className="text-container">
+            <span className="syntax-style lang divsign">{"<"}</span>
+          </div>
+          <a
+            className="card"
+            href="https://github.com/mutenJanken/BowlingAlley"
+          >
+            <div>
+              <div className="card-text-container">
+                <h3 className="card-text-h3">Simulated Bowling Game</h3>
+                <small className="card-text-small">
+                  BowlingAlley is a console-based bowling simulation using
+                  Entity Framework for data management. It features random score
+                  generation and tracks match results. The code is structured
+                  with design patterns like Singleton, Strategy, and Facade.
+                </small>
+              </div>
+            </div>
+          </a>
+          <div className="text-container">
+            <span className="syntax-style lang prop p">proj</span>
+            <span className="syntax-style lang sign p">=</span>
+            <span className="syntax-style lang sign p">{"{"}</span>
+            <span className="syntax-style lang variable p">proj..</span>
+            <span className="syntax-style lang sign p">{"}"}</span>
+            <span className="syntax-style lang divsign">{"/>"}</span>
+          </div>
+        </div>
+
         {/* Portfolio project */}
         <div className="card-wrapper">
           <div className="text-container">
@@ -95,16 +126,9 @@ function ProjectSection() {
             className="card"
             href="https://github.com/mutenJanken/emilhult-portfolio"
           >
-            {/* <div>
-                <img
-                className="shotgun-png"
-                src="src/assets/Images/Listing App.png"
-                alt="Bild på listing app"
-                />
-                </div> */}
             <div className="card-text-container">
-              <h3 className="card-text">Portfolio Website</h3>
-              <small className="card-text">
+              <h3 className="card-text-h3">Portfolio Website</h3>
+              <small className="card-text-small">
                 A personal portfolio built with React, Sass, and HTML, featuring
                 various sections and a navbar for easy navigation. Showcasing
                 Projects, Skills, and a link to my resume.
@@ -112,10 +136,10 @@ function ProjectSection() {
             </div>
           </a>
           <div className="text-container">
-            <span className="syntax-style lang prop p">projects</span>
+            <span className="syntax-style lang prop p">proj</span>
             <span className="syntax-style lang sign p">=</span>
             <span className="syntax-style lang sign p">{"{"}</span>
-            <span className="syntax-style lang variable p">projects</span>
+            <span className="syntax-style lang variable p">proj..</span>
             <span className="syntax-style lang sign p">{"}"}</span>
             <span className="syntax-style lang divsign">{"/>"}</span>
           </div>
@@ -127,26 +151,19 @@ function ProjectSection() {
             <span className="syntax-style lang divsign">{"<"}</span>
           </div>
           <a className="card" href="https://github.com/mutenJanken/AdsADONET">
-            {/* <div>
-                <img
-                className="shotgun-png"
-                src="src/assets/Images/Listing App.png"
-                alt="Bild på listing app"
-                />
-                </div> */}
             <div className="card-text-container">
-              <h3 className="card-text">Listing app</h3>
-              <small className="card-text">
+              <h3 className="card-text-h3">Listing app</h3>
+              <small className="card-text-small">
                 A WinForms application built with ADO.NET and T-SQL for data
                 management.
               </small>
             </div>
           </a>
           <div className="text-container">
-            <span className="syntax-style lang prop p">projects</span>
+            <span className="syntax-style lang prop p">proj</span>
             <span className="syntax-style lang sign p">=</span>
             <span className="syntax-style lang sign p">{"{"}</span>
-            <span className="syntax-style lang variable p">projects</span>
+            <span className="syntax-style lang variable p">proj..</span>
             <span className="syntax-style lang sign p">{"}"}</span>
             <span className="syntax-style lang divsign">{"/>"}</span>
           </div>
@@ -170,8 +187,8 @@ function ProjectSection() {
               </div> */}
             <div>
               <div className="card-text-container">
-                <h3 className="card-text">Shotgun Game</h3>
-                <small className="card-text">
+                <h3 className="card-text-h3">Shotgun Game</h3>
+                <small className="card-text-small">
                   A WinForms turn-based duel game with a scripted bot, built in
                   C# using OOP principles.
                 </small>
@@ -179,10 +196,10 @@ function ProjectSection() {
             </div>
           </a>
           <div className="text-container">
-            <span className="syntax-style lang prop p">projects</span>
+            <span className="syntax-style lang prop p">proj</span>
             <span className="syntax-style lang sign p">=</span>
             <span className="syntax-style lang sign p">{"{"}</span>
-            <span className="syntax-style lang variable p">projects</span>
+            <span className="syntax-style lang variable p">proj..</span>
             <span className="syntax-style lang sign p">{"}"}</span>
             <span className="syntax-style lang divsign">{"/>"}</span>
           </div>

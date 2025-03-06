@@ -43,6 +43,11 @@ h1 {
     margin: 0px;
     font-size: 350%;
     text-shadow: rgba(255, 255, 255, 0.253) 0 0 12px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.7rem;
+        margin: 5px 0;
+    }
 }
 
 h2 {
@@ -61,26 +66,45 @@ h2 {
 }
 
 h3 {
-    color: rgb(204, 209, 213);
+    color: rgb(204, 209, 213);       
+
 }
 
 .text-container{
     display: flex;
-    align-items:last baseline;
+    align-items: baseline;
     justify-content: start;
-    gap: 8px;
+    gap: 3px;
+    // width: 100%;
 
     &.indent2{
         margin-left: 34px;
+
+        @media screen and (max-width: 768px) {
+            margin-left: 17px;
+        }
     }
     &.indent4{
         margin-left: 68px;
+
+        @media screen and (max-width: 768px) {
+            margin-left: 27px;
+        }
     }
     &.indent6{
         margin-left: 102px;
+
+        @media screen and (max-width: 768px) {
+            margin-left: 37px;   
+        }
     }
     &.indentspecial{
         margin-left: 130px;
+    }
+
+    @media screen and (max-width: 768px) {
+        // font-size: 80%; 
+        gap: 2px; 
     }
 }
 
@@ -90,6 +114,10 @@ h3 {
     color: #66faa47e;
     font-size: 180%;
     // text-shadow: rgba(255, 255, 255, 0.079) 0 0 15px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 120%;
+    }
     
     &.small{
         font-size: 90%;
@@ -97,79 +125,111 @@ h3 {
     }
     &.text{
         font-size: 90%;
-        color: var(--button-link-hover)
-    }
+        color: var(--button-link-hover);
 
-    // &.big{
-    //     font-size: 40px;
-    // }
+        @media screen and (max-width: 768px) {
+            font-size: 70%; 
+        }
+    } 
 
     &.lang{   
-    font-size: 110%;
+    // font-size: 110%;
 
         &.p{
             font-size: 15px;
+
         }
         &.vartype{
-            color: var(--vartype-color1)
-        }
-        &.sign{
-            color: var(--sign)
-        }
-        &.quotation{
-            color:var(--quotation-text)
-        }
-        &.list{
-            color:var(--class)
-        }
-        &.class{
-            color: var(--class);
+            color: var(--vartype-color1);
+            font-size: 90%;
+
+            @media screen and (max-width: 768px) {
+                font-size: 60%;
+            }
         }
         &.sign{
             color: var(--sign);
+            font-size: 90%;
+            
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
+        }
+        &.quotation{
+            color:var(--quotation-text);
+            font-size: 90%;
+                        
+            @media screen and (max-width: 768px) {
+                font-size: 65%;
+            }
+        }
+        &.list{
+            color:var(--class);
+            font-size: 90%;
+
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
+        }
+        &.class{
+            color: var(--class);            
+            font-size: 90%;
+
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
+        }
+        &.sign{
+            color: var(--sign);            
+            font-size: 90%;
+
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
         }
         &.divsign{
             color: var(--div-sign);
-            font-size: 20px;
+            font-size: 15px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 60%;
+            }
         }
         &.prop{
-            color: var(--prop)
+            color: var(--prop);
+            font-size: 80%;
+            
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
         }
         &.method{
-            color: var(--method)
-        }
-        &.quotation{
-            color: var(--quotation)
+            color: var(--method);
+            font-size: 100%;
+            
+            @media screen and (max-width: 768px) {
+                font-size: 65%;
+            }
         }
         &.variable{
-            color: var(--variable)
+            color: var(--variable);
+            font-size: 90%;
+
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
         } 
         &.array{
             color: var(--array);
             font-weight: bold;
-        }
+            font-size: 90%;
 
+            @media screen and (max-width: 768px) {
+                font-size: 50%;
+            }
+        }
     }
 }
-
-// .lang{
-    // font-size: 20px;
-    // &.class{
-    //     color: var(--class);
-    // }
-    // &.sign{
-    //     color: var(--sign)
-    // }
-    // &.method{
-    //     color: var(--method)
-    // }
-    // &.quotation{
-    //     color: var(--quotation)
-    // }
-    // &.variable{
-    //     color: var(--variable)
-    // }
-// }
 
 .navbar {
     width: 100%;
@@ -393,14 +453,18 @@ footer {
     display: flex;
     justify-content: center;
     // margin-top: 5%;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.3rem;;
+    }
 }
 
 section {
     color: rgba(240, 248, 255, 0.589);
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 100px;
-    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-top: 40px;
     min-height: auto;
     display: flex;
     flex-direction: column;
@@ -431,17 +495,37 @@ section {
     font-size: 105%;
     color: var(--terminal-output);
 
+        @media screen and (max-width: 768px) {
+        font-size: 80%; 
+    }
+
 }
 
 .chat-bubble{
     // display: flex;
     position: relative;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
 
     &.pic{
         top: 20%;
         left: -10%;
         z-index: 2;
         position:absolute;
+
+        @media screen and (max-width: 768px) {
+            position: relative;
+            left: 0;
+            top: 0;
+            margin: auto;
+            display: block;
+        }        
+        
+    }
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
     }
 }
 
@@ -450,35 +534,30 @@ section {
 }
 
 .aboutme-layout {
-    // background-color: #343f5550;
-    // border: 1px solid #343f5550;
-    // box-shadow: 0 5px 15px rgba(0, 0, 0, 0.414);
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    // border-radius: 20px;
-    // border-top-left-radius: 2px;
-    // border-bottom-left-radius: 60px;
-    // border-top-right-radius: 60px;
-    // border-bottom-right-radius: 60px;
-    // position: relative;
+
     gap: 20px;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 }
 
 .aboutme-layout p {
     flex: 1;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;  
     // margin-bottom: 20px;
     text-align: justify;
 
     @media screen and (max-width: 768px) {
         text-align: center;
+        padding:  0 10px;
     }
 }
 
@@ -489,6 +568,12 @@ section {
     align-items: flex-start;
     flex: 1;
     margin: 0px 0px -60px 100px;
+
+        @media screen and (max-width: 768px) {
+        margin: 0; 
+        align-items: center; 
+        text-align: center;
+    }
 }
 
 .socials {
@@ -514,15 +599,26 @@ section {
 
 .projects-layout {
     width: 600px;
+    max-width: 100%;
+    // width: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
     flex-direction: column;
+    // justify-content: space-evenly;
     gap: 1px;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
         align-items: start;
+    }
+
+    @media screen and (max-width: 480px) {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: start;
+        padding: 0 5%;
+        // gap: 10px;
     }
 }
 
@@ -536,14 +632,15 @@ section {
 .card-wrapper{
     display: flex;
     align-items: center;
+    justify-content: center;  // ta bort?
+    flex-wrap: wrap;   // ta bort?
 }
 .card {
     background-color: #212030;
     font-family: 'Roboto Mono', monospace;
-
     border: 1px solid #343f5550;
-    width: 250px;
-    max-height: 200px;
+    width: 450px;
+    max-height: 300px;
     border-radius: 15px;
     margin: 20px;
     text-decoration: none;
@@ -554,6 +651,11 @@ section {
         transform: scale(1.05);
         transition: transform 0.3s ease;
     }
+
+    @media screen and (max-width: 768px) {
+        width: 60%; 
+        max-width: 60%; 
+    }
 }
 
 .card-text-container{
@@ -561,8 +663,23 @@ section {
     flex-direction: column;
     justify-content: center;
 }
-.card-text {
+.card-text-h3 {
+    font-size: 1.3rem;
+
     margin: 10px 10px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 0.9rem;
+    }
+}
+.card-text-small{
+    font-size: 0.8rem;
+    margin: 10px 10px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 0.7rem;
+    }
+
 }
 
 .logos {
@@ -571,7 +688,7 @@ section {
     margin: 30px 15px 0px 15px;
 
     @media screen and (max-width: 768px) {
-        width: 60px;
+        width: 34px;
         margin: 20px 10px;
     }
 }
@@ -587,6 +704,7 @@ section {
     @media screen and (max-width: 768px) {
         margin: 0 auto;
     }
+
 }
 
 .shotgun-png {
