@@ -2,6 +2,25 @@ import Navbar from "./Navbar";
 function Header() {
   return (
     <header className="header-group" id="navbar">
+      <div className="socials-header">
+        <a href="https://github.com/mutenJanken" className="github-button">
+          <img
+            className="github-logo"
+            src="Images/github.png"
+            alt="Bild inom knapp på github-logo"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/emil-hult-a47a87326/"
+          className="linkedin-button"
+        >
+          <img
+            className="linkedin-logo"
+            src="Images/linkedin.png"
+            alt="Bild inom knapp på linkedin-logo"
+          />
+        </a>
+      </div>
       <div className="text-container">
         <small className="syntax-style">{"/dev>"} </small>
         <h1>Emil Hult</h1>
@@ -10,6 +29,7 @@ function Header() {
         <small className="syntax-style small">{" > "} </small>
         <h2 className="syntax-style text">Aspiring developer in training</h2>
       </div>
+
       <Navbar />
       {/* <nav className="navbar">
         <a href="#aboutme" className="aboutme-button nav-buttons">

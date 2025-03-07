@@ -15,37 +15,37 @@ function KnowledgeSection() {
       <div>
         <img
           className="logos"
-          src="Images/csharp.png"
+          src="Images/csharplogo.png"
           alt="Bild på C# logo"
           title="C#"
         />
         <img
           className="logos"
-          src="Images/tsql.png"
+          src="Images/sqllogo.png"
           alt="Bild på SQL logo"
           title="T-SQL"
         />
         <img
           className="logos"
-          src="Images/html.png"
+          src="Images/htmllogo.png"
           alt="Bild på HTML logo"
           title="HTML"
         />
         <img
           className="logos"
-          src="Images/css.png"
+          src="Images/csslogo.png"
           alt="Bild på CSS logo"
           title="CSS"
         />
         <img
           className="logos"
-          src="Images/javascipt.png"
+          src="Images/jslogo.png"
           alt="Bild på Javascript logo"
           title="Javascript"
         />
         <img
           className="logos"
-          src="Images/react.png"
+          src="Images/reactlogo.png"
           alt="Bild på React logo"
           title="React"
         />
