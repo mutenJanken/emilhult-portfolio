@@ -9,7 +9,7 @@ function MainContent() {
       <AboutMeSection />
       <KnowledgeSection />
       <ProjectSection />
-      <SocialsSection />
+      {/* <SocialsSection /> */}
 
       {/* ---------Previously used contact form ---------- */}
 

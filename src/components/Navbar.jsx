@@ -1,26 +1,23 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="#aboutme" className="aboutme-button nav-buttons">
+      <a href="#aboutme" className="nav-buttons">
         About Me
       </a>
-      <a href="#knowledge" className="knowledge-button nav-buttons">
+      <a href="#knowledge" className="nav-buttons">
         Knowledge
       </a>
-      <a href="#projects" className="projects-button nav-buttons">
+      <a href="#projects" className="nav-buttons">
         Projects
       </a>
-      <a href="#socials" className="socials-button nav-buttons">
+      {/* <a href="#socials" className="nav-buttons">
         Socials
-      </a>
-      <a href="assets/emilhultresume.pdf" className="resume-button nav-buttons">
+      </a> */}
+      <a href="assets/emilhultresume.pdf" className="nav-buttons">
         Resume
       </a>
-      <a
-        href="mailto:emilhult@live.se"
-        className="contactme-button nav-buttons"
-      >
-        Contact Me{" "}
+      <a href="mailto:emilhult@live.se" className="nav-buttons">
+        Contact Me
       </a>
     </nav>
   );
