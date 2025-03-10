@@ -762,6 +762,17 @@ section {
     text-decoration: none;
 }
 
+.blinking-cursor::after {
+  content: "|";
+  animation: blink 1s  infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 //  ------------  previously used contact form  -----------------
 
