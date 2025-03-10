@@ -6,21 +6,21 @@ function AboutMeSection() {
           ⬆ Scroll Up
         </a>
       </div>
-      <div className="text-container">
-        <small className="syntax-style lang vartype">{"string "} </small>
-        <h2 className="h2section">aboutMe</h2>
-        <small className="syntax-style lang sign">=</small>
-        <small className="syntax-style lang quotation">
-          &quot;{"Hello! My..."}&quot;
-        </small>
-        <small className="syntax-style lang sign">;</small>
-      </div>
       <div className="chat-bubble">
         <div className="chat-bubble pic">
           <img className="profile-pic" src="Images/me.jpeg" alt="Bild på mig" />
         </div>
         <div className="aboutme-layout">
           <div className="p-layout">
+            <div className="text-container">
+              <small className="syntax-style lang vartype">{"string "} </small>
+              <h2 className="h2section">aboutMe</h2>
+              <small className="syntax-style lang sign">=</small>
+              <small className="syntax-style lang quotation">
+                &quot;{"Hello! My..."}&quot;
+              </small>
+              <small className="syntax-style lang sign">;</small>
+            </div>
             <div className="console-writeline-container">
               <span className="syntax-style lang class">Console</span>
               <span className="syntax-style lang sign">.</span>
@@ -31,7 +31,7 @@ function AboutMeSection() {
               <span className="syntax-style lang sign">;</span>
             </div>
             <p className="aboutme-p">
-              <span className="syntax-style lang sign">{">"}</span>
+              {/* <span className="syntax-style lang sign">{">"}</span> */}
               {/* <span className="lang quotation">&quot;</span> */}
               Hello! My name is Emil, I am a student in the{" "}
               <strong>
@@ -39,16 +39,19 @@ function AboutMeSection() {
               </strong>{" "}
               development course at Nackademin. With a interest for data, and
               logic, I am pursuing a career in IT where I can develop and
-              challenge my knowledge. During my studies, I have gained a good
-              understanding of backend development with{" "}
+              challenge my knowledge. So far during my studies, I have gained a
+              good understanding of backend development with{" "}
               <strong>
                 <em className="highlight-word">C#</em>
               </strong>
               , database management with{" "}
               <strong>
-                <em className="highlight-word">SQL</em>
+                <em className="highlight-word">SQL </em>
+                using
+                <em className="highlight-word">{" Entity framework "}</em>and
+                <em className="highlight-word">{" ADO.NET"}</em>
               </strong>
-              , and frontend development with{" "}
+              . Frontend development with{" "}
               <strong>
                 <em className="highlight-word">HTML</em>
               </strong>
@@ -80,7 +83,7 @@ function AboutMeSection() {
               <span className="syntax-style lang sign">,</span>
               <span className="syntax-style lang quotation">&quot;</span>
               <span className="syntax-style lang quotation">Exercise</span>
-              <span className="">&quot;</span>
+              <span className="syntax-style lang quotation">&quot;</span>
               <span className="syntax-style lang sign">,</span>
               <span className="syntax-style lang quotation">&quot;</span>
               <span className="syntax-style lang quotation">Guitar</span>
