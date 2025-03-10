@@ -715,9 +715,10 @@ section {
 
 .blinking-cursor::after {
   content: "|";
+  color: #e6e6e6;
   animation: blink 1s  infinite;
   position: relative;
-  top: -4px;
+  top: -3px;
 }
 
 @keyframes blink {
