@@ -712,9 +712,6 @@ section {
     text-decoration: none;
 }
 
-.blinking-cursor{
-    // font-style: italic;
-}
 
 .blinking-cursor::after {
   content: "|";
