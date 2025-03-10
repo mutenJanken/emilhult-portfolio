@@ -762,6 +762,23 @@ section {
     text-decoration: none;
 }
 
+.blinking-cursor{
+    // font-style: italic;
+}
+
+.blinking-cursor::after {
+  content: "|";
+  animation: blink 1s  infinite;
+  position: relative;
+  top: -4px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 //  ------------  previously used contact form  -----------------
 
