@@ -22,8 +22,9 @@ function Header() {
         </a>
       </div>
       <div className="text-container">
-        <small className="syntax-style">{"/dev>"} </small>
+        <small className="syntax-style">..\dev\</small>
         <h1>Emil Hult</h1>
+        <small className="syntax-style">{">"}</small>
       </div>
       <div className="text-container">
         <small className="syntax-style small">{" > "} </small>
