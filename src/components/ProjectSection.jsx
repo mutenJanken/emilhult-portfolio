@@ -81,7 +81,9 @@ function ProjectSection() {
           <span className="syntax-style lang sign p">{"("}</span>
         </div>
         <div className="text-container indent4">
-          <span className="syntax-style lang sign p">{"<>"}</span>
+          <span className="syntax-style lang divsign">{"<"}</span>
+          <span className="syntax-style lang sign p">{"div"}</span>
+          <span className="syntax-style lang divsign">{">"}</span>
         </div>
       </div>
 
@@ -106,6 +108,7 @@ function ProjectSection() {
                 </small>
               </div>
             </div>
+            <span className="view-source-code">Click to view code</span>
           </a>
           <div className="text-container">
             <span className="syntax-style lang prop p">proj</span>
@@ -134,6 +137,7 @@ function ProjectSection() {
                 Projects, Skills, and a link to my resume.
               </small>
             </div>
+            <span className="view-source-code">Click to view code</span>
           </a>
           <div className="text-container">
             <span className="syntax-style lang prop p">proj</span>
@@ -158,6 +162,7 @@ function ProjectSection() {
                 management.
               </small>
             </div>
+            <span className="view-source-code">Click to view code</span>
           </a>
           <div className="text-container">
             <span className="syntax-style lang prop p">proj</span>
@@ -178,13 +183,6 @@ function ProjectSection() {
             className="card"
             href="https://github.com/mutenJanken/ShotgunRefractored"
           >
-            {/* <div>
-                <img
-                  className="shotgun-png"
-                  src="src/assets/Images/ShotgunGamePic.png"
-                  alt="Bild på shotgun spel"
-                />
-              </div> */}
             <div>
               <div className="card-text-container">
                 <h3 className="card-text-h3">Shotgun Game</h3>
@@ -194,6 +192,7 @@ function ProjectSection() {
                 </small>
               </div>
             </div>
+            <span className="view-source-code">Click to view code</span>
           </a>
           <div className="text-container">
             <span className="syntax-style lang prop p">proj</span>
@@ -207,7 +206,10 @@ function ProjectSection() {
       </article>
       <div className="projects-layout">
         <div className="text-container indent4">
-          <span className="syntax-style lang sign p">{"</>"}</span>
+          {/* <span className="syntax-style lang divsign">{"</>"}</span> */}
+          <span className="syntax-style lang divsign">{"<"}</span>
+          <span className="syntax-style lang sign p">{"div"}</span>
+          <span className="syntax-style lang divsign">{"/>"}</span>
         </div>
         <div className="text-container indent2">
           <span className="syntax-style lang sign p">{");"}</span>

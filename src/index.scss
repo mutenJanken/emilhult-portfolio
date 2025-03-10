@@ -595,9 +595,9 @@ section {
     font-family: 'Roboto Mono', monospace;
     border: 1px solid #343f5550;
     width: 450px;
-    max-height: 300px;
+    max-height: 400px;
     border-radius: 15px;
-    margin: 20px;
+    margin: 20px 10px;
     text-decoration: none;
     color: inherit;
     box-shadow: 5px 5px 10px rgba(3, 3, 3, 0.229);
@@ -634,7 +634,15 @@ section {
     @media screen and (max-width: 768px) {
         font-size: 0.7rem;
     }
+}
 
+.view-source-code{
+    display: flex;
+    justify-content: end;
+    color: #5dade2d2;
+    font-size: 13px;
+    // text-decoration: underline;
+    margin: 0px 20px 10px 10px;
 }
 
 .logos {
