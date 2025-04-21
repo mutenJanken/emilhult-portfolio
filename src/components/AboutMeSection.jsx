@@ -80,7 +80,7 @@ function AboutMeSection() {
                 </strong>
               </p>
               <p className="internship-period">
-                <strong> <em> Internship period: nov 2025 - may 2026.</em></strong>
+                <strong> <em> Internship period: November 2025 - May 2026.</em></strong>
               <div className="internship-period text ">
                 Seeking an opportunity where I can grow and hopefully make some meaningful
                 contributions along the way. 
