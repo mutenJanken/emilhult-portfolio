@@ -43,7 +43,7 @@ h1 {
     font-style: italic; 
     margin: 0px;
     font-size: 350%;
-    text-shadow: rgba(255, 255, 255, 0.253) 0 0 12px;
+    text-shadow: rgba(255, 255, 255, 0.226) 0 0 12px;
 
     @media screen and (max-width: 768px) {
         font-size: 2.6rem;
@@ -424,7 +424,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 
     @media screen and (max-width: 768px) {
         padding-left: 5%;
@@ -535,6 +535,15 @@ section {
         align-items: center; 
         text-align: center;
     }
+}
+
+.internship-period{
+  color: rgb(243, 243, 247);
+  text-shadow: rgba(255, 255, 255, 0.199) 0 0 12px;
+
+  &.text{
+    color: var(--terminal-output);
+  }
 }
 
 .socials {
@@ -721,7 +730,7 @@ section {
 
 .highlight-word {
     color: rgb(243, 243, 247);
-    text-shadow: rgba(255, 255, 255, 0.419) 0 0 12px;
+    text-shadow: rgba(255, 255, 255, 0.212) 0 0 12px;
 }
 
 .http-link{
